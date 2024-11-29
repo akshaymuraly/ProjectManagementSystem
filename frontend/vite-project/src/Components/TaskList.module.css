@@ -1,0 +1,35 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.saveButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.saveButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
